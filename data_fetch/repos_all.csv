@@ -1,11 +1,72 @@
 repo_name,repo_description
 CalHousePredictor,
-Class_Prediction_with-given_Features_ML,
+ClassPredictionwithgivenFeaturesML,
 Codewars,
-Java-learning,syntax and statement definitions with examples in Java
-learning-C-with-classes,Reference C++ scripts.
-Mayhul-Jindal,My GitHub Profile
-NLP_pub,
-Profit_MLmodel,
-python-scripts,
-Whatsapp-Bot,"A digital marketing tool that can be used to send product updates, message people individually without the creation of extra groups using Whatsapp"
+Javalearning,syntax and statement definitions with examples in Java
+learningCwithclasses,Reference C scripts
+MayhulJindal,My GitHub Profile
+NLPpub,
+ProfitMLmodel,
+pythonscripts,
+WhatsappBot,A digital marketing tool that can be used to send product updates message people individually without the creation of extra groups using Whatsapp
+amongusgif,A python script to create Among Us meme GIFs
+ayka,
+bhyilinks,An esoteric link shortener
+cbseresults,A script to get CBSE XII results of multiple roll numbers at once
+CertificateGenerator,Program to generate and email certificates
+cwintra,CW Intra website Techathlon
+entente,Robotronics hackathon entry
+GDSCNSUT,
+grid,
+jeepaperchecker,calculate jee main marks
+mandelbrotexplorer,Explore the Mandelbrot fractal
+mazegen,Python tool to generate and solve mazes
+ojingeo,Hack submission for cepheus
+pagalga,
+pathi,hbd
+portfolio,
+sexkardunga,
+synscanner,A simple TCP SYN scanner for linux
+test,
+ujjujjujgithubio,im
+vestigo,xino hackathon entry
+certifcgernrr,ez automation and mailing of certis in approx lines of code for participation certis
+cfdp,Centre For Developmental Pediatrics
+CircuitVerse,CircuitVerse Primary Code Base
+dcrypt,nCrypts Cryptic Hunt platform
+dCrypt,dCrypt flask version
+dcryptk,
+diivi,
+ecolosseum,
+faltucoin,A basic PoW cryptocurrency implementation
+freeCodeCamp,freeCodeCamporgs opensource codebase and curriculum Learn to code for free
+hackslashnitpgithubio,Source code of the official website of hackslash club
+hammertestbed,A Phoenix app for testing and demonstrating Hammer
+hangmancli,CLI for hangman
+kabootrr,A movie ticket booking web app demo with firebase
+KiloBite,A reactnative restaurant and menu browsing app
+kirayay,
+makersandmerchants,
+meritension,Chrome extension for faster cheating Skipping the login modal did not load MathML on chrome the way its supposed to which is why this extension uses some Fmath modules
+mgmtdashboard,
+MiloApp,A miscellaneous Flutter app built with various geolocator plugins and Google Maps SDK
+minithotsbackend,
+ncryptregister,nahi pasand handlebars
+ncryptk,The website for nCrypt DPS Sushant Loks tech club Languages and frameworks HTML CSS JSJQueryBootstrap and some basic js libraries
+nestbankmgmtcurd,curd api with nestjs prisma basic passportjwt auth
+normalizecss,A modern alternative to CSS resets
+pretweet,A RoR tweet scheduler with all essential backend features authjobscrud twitter oauth
+promoserver,Backend for an affiliate marketing platform
+recordivi,A desktop based screen recording application for WindowsOSX and Linux made with node js and electron js
+saylus,ibm ke liye project uske liye website
+shortenr,basic flaskmysql url shortener
+skech,
+skechserver,
+smun,Statesmanship Conference
+sveltestarter,Boilerplate with basic functionality to get started with sveltekit projects
+talawaapi,API Backend for the Talawa Mobile App Click on the link below to see our documentation
+threejsdemos,
+torparty,
+triangleapp,Financial Simulation app and Token built on Polygon
+uiGradients,Beautiful colour gradients for design and code
+vsconline,Online interpreter for a low level machine language
