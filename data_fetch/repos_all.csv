@@ -1,72 +1,72 @@
-repo_name,repo_description
-CalHousePredictor,
-ClassPredictionwithgivenFeaturesML,
-Codewars,
-Javalearning,syntax and statement definitions with examples in Java
-learningCwithclasses,Reference C scripts
-MayhulJindal,My GitHub Profile
-NLPpub,
-ProfitMLmodel,
-pythonscripts,
-WhatsappBot,A digital marketing tool that can be used to send product updates message people individually without the creation of extra groups using Whatsapp
-amongusgif,A python script to create Among Us meme GIFs
-ayka,
-bhyilinks,An esoteric link shortener
-cbseresults,A script to get CBSE XII results of multiple roll numbers at once
-CertificateGenerator,Program to generate and email certificates
-cwintra,CW Intra website Techathlon
-entente,Robotronics hackathon entry
-GDSCNSUT,
-grid,
-jeepaperchecker,calculate jee main marks
-mandelbrotexplorer,Explore the Mandelbrot fractal
-mazegen,Python tool to generate and solve mazes
-ojingeo,Hack submission for cepheus
-pagalga,
-pathi,hbd
-portfolio,
-sexkardunga,
-synscanner,A simple TCP SYN scanner for linux
-test,
-ujjujjujgithubio,im
-vestigo,xino hackathon entry
-certifcgernrr,ez automation and mailing of certis in approx lines of code for participation certis
-cfdp,Centre For Developmental Pediatrics
-CircuitVerse,CircuitVerse Primary Code Base
-dcrypt,nCrypts Cryptic Hunt platform
-dCrypt,dCrypt flask version
-dcryptk,
-diivi,
-ecolosseum,
-faltucoin,A basic PoW cryptocurrency implementation
-freeCodeCamp,freeCodeCamporgs opensource codebase and curriculum Learn to code for free
-hackslashnitpgithubio,Source code of the official website of hackslash club
-hammertestbed,A Phoenix app for testing and demonstrating Hammer
-hangmancli,CLI for hangman
-kabootrr,A movie ticket booking web app demo with firebase
-KiloBite,A reactnative restaurant and menu browsing app
-kirayay,
-makersandmerchants,
-meritension,Chrome extension for faster cheating Skipping the login modal did not load MathML on chrome the way its supposed to which is why this extension uses some Fmath modules
-mgmtdashboard,
-MiloApp,A miscellaneous Flutter app built with various geolocator plugins and Google Maps SDK
-minithotsbackend,
-ncryptregister,nahi pasand handlebars
-ncryptk,The website for nCrypt DPS Sushant Loks tech club Languages and frameworks HTML CSS JSJQueryBootstrap and some basic js libraries
-nestbankmgmtcurd,curd api with nestjs prisma basic passportjwt auth
-normalizecss,A modern alternative to CSS resets
-pretweet,A RoR tweet scheduler with all essential backend features authjobscrud twitter oauth
-promoserver,Backend for an affiliate marketing platform
-recordivi,A desktop based screen recording application for WindowsOSX and Linux made with node js and electron js
-saylus,ibm ke liye project uske liye website
-shortenr,basic flaskmysql url shortener
-skech,
-skechserver,
-smun,Statesmanship Conference
-sveltestarter,Boilerplate with basic functionality to get started with sveltekit projects
-talawaapi,API Backend for the Talawa Mobile App Click on the link below to see our documentation
-threejsdemos,
-torparty,
-triangleapp,Financial Simulation app and Token built on Polygon
-uiGradients,Beautiful colour gradients for design and code
-vsconline,Online interpreter for a low level machine language
+username,repos_descrip
+Prerit Rana,CalHousePredictor 
+Prerit Rana,ClassPredictionwithgivenFeaturesML 
+Prerit Rana,Codewars 
+Prerit Rana,Javalearning syntax and statement definitions with examples in Java
+Prerit Rana,learningCwithclasses Reference C scripts
+Prerit Rana,MayhulJindal My GitHub Profile
+Prerit Rana,NLPpub 
+Prerit Rana,ProfitMLmodel 
+Prerit Rana,pythonscripts 
+Prerit Rana,WhatsappBot A digital marketing tool that can be used to send product updates message people individually without the creation of extra groups using Whatsapp
+ujjwal dimri,amongusgif A python script to create Among Us meme GIFs
+ujjwal dimri,ayka 
+ujjwal dimri,bhyilinks An esoteric link shortener
+ujjwal dimri,cbseresults A script to get CBSE XII results of multiple roll numbers at once
+ujjwal dimri,CertificateGenerator Program to generate and email certificates
+ujjwal dimri,cwintra CW Intra website Techathlon
+ujjwal dimri,entente Robotronics hackathon entry
+ujjwal dimri,GDSCNSUT 
+ujjwal dimri,grid 
+ujjwal dimri,jeepaperchecker calculate jee main marks
+ujjwal dimri,mandelbrotexplorer Explore the Mandelbrot fractal
+ujjwal dimri,manomachineemulator An Emulator and Assembler for the Mano Machine written in JavaScript
+ujjwal dimri,mazegen Python tool to generate and solve mazes
+ujjwal dimri,ojingeo Hack submission for cepheus
+ujjwal dimri,pagalga 
+ujjwal dimri,pathi hbd
+ujjwal dimri,portfolio 
+ujjwal dimri,sexkardunga 
+ujjwal dimri,synscanner A simple TCP SYN scanner for linux
+ujjwal dimri,test 
+ujjwal dimri,ujjujjujgithubio im
+ujjwal dimri,vestigo xino hackathon entry
+Divyansh Singh,certifcgernrr ez automation and mailing of certis in approx lines of code for participation certis
+Divyansh Singh,cfdp Centre For Developmental Pediatrics
+Divyansh Singh,CircuitVerse CircuitVerse Primary Code Base
+Divyansh Singh,dcrypt nCrypts Cryptic Hunt platform
+Divyansh Singh,dCrypt dCrypt flask version
+Divyansh Singh,dcryptk 
+Divyansh Singh,diivi 
+Divyansh Singh,ecolosseum 
+Divyansh Singh,faltucoin A basic PoW cryptocurrency implementation
+Divyansh Singh,freeCodeCamp freeCodeCamporgs opensource codebase and curriculum Learn to code for free
+Divyansh Singh,hackslashnitpgithubio Source code of the official website of hackslash club
+Divyansh Singh,hammertestbed A Phoenix app for testing and demonstrating Hammer
+Divyansh Singh,hangmancli CLI for hangman
+Divyansh Singh,kabootrr A movie ticket booking web app demo with firebase
+Divyansh Singh,KiloBite A reactnative restaurant and menu browsing app
+Divyansh Singh,kirayay 
+Divyansh Singh,makersandmerchants 
+Divyansh Singh,meritension Chrome extension for faster cheating Skipping the login modal did not load MathML on chrome the way its supposed to which is why this extension uses some Fmath modules
+Divyansh Singh,mgmtdashboard 
+Divyansh Singh,MiloApp A miscellaneous Flutter app built with various geolocator plugins and Google Maps SDK
+Divyansh Singh,minithotsbackend 
+Divyansh Singh,ncryptregister nahi pasand handlebars
+Divyansh Singh,ncryptk The website for nCrypt DPS Sushant Loks tech club Languages and frameworks HTML CSS JSJQueryBootstrap and some basic js libraries
+Divyansh Singh,nestbankmgmtcurd curd api with nestjs prisma basic passportjwt auth
+Divyansh Singh,normalizecss A modern alternative to CSS resets
+Divyansh Singh,pretweet A RoR tweet scheduler with all essential backend features authjobscrud twitter oauth
+Divyansh Singh,promoserver Backend for an affiliate marketing platform
+Divyansh Singh,recordivi A desktop based screen recording application for WindowsOSX and Linux made with node js and electron js
+Divyansh Singh,saylus ibm ke liye project uske liye website
+Divyansh Singh,shortenr basic flaskmysql url shortener
+Divyansh Singh,skech 
+Divyansh Singh,skechserver 
+Divyansh Singh,smun Statesmanship Conference
+Divyansh Singh,sveltestarter Boilerplate with basic functionality to get started with sveltekit projects
+Divyansh Singh,threejsdemos 
+Divyansh Singh,torparty 
+Divyansh Singh,triangleapp Financial Simulation app and Token built on Polygon
+Divyansh Singh,uiGradients Beautiful colour gradients for design and code
+Divyansh Singh,vsconline Online interpreter for a low level machine language
