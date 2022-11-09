@@ -58,4 +58,11 @@ async def on_message(message):
     # This is a good example where we can see the bot will recurisvely call 
     # happy birthday since the reponse also contains happy birthday
 
+@client.event
+async def on_error(event,*args,**kwargs):
+    with open("err.log",a) as file:
+        if event==on_message:
+            file.write(f'Unhandled Exception: {args[0]}\n')
+        else: raise
+    
 client.run(TOKEN)
