@@ -12,5 +12,5 @@ When we use request.get/post and specify an auth parameter (tuple consisting of 
 
 #### Zero shot learning
 ZSL moslty refers to very specific type of task that is learning a classifier on 1 set of labels and then evaluating on a different set of labels the model has never seen before. We will be using this in our case as well where for every repository a person has we will generate a list of candidate labels and calculate their probabilites. 
-Any candidate label above the baseline probability will be accpeted as the skill of the person. (our default baseline baseline is: )
+Any candidate label above the baseline probability will be accpeted as the skill of the person. (our default baseline baseline is:)
 
