@@ -73,11 +73,10 @@ const RegisterPage = () => {
         if(!isValid) {
             setErrors(newErrors);
             console.log(errors);
-
             return;
         }
 
-        setIsLoading(true);
+        setIsLoading(true);     //Wait for server to process request (for button animation)
         await fetch("http://localhost:5050/record",{
             method: "POST",
             headers: {
@@ -85,11 +84,35 @@ const RegisterPage = () => {
             },
             body: JSON.stringify(newPerson),
         })
+        .then((response) => {
+            if(response.ok) {   //request was successful
+                // TODO: add successfull response animation
+                return response.json;   
+            }
+            else if (response.status === 400){
+                // TODO: add bad data sent error
+                
+            }
+        })
         .catch(error => {
             window.alert(error);
             setIsLoading(false);
             return;
         })
+
+        // await fetch("http://localhost:8080/user",{
+        //     method: "POST",
+        //     headers: {
+        //         "Content-Type": "application/json",
+        //     },
+        //     body: JSON.stringify(newPerson),
+        // })
+        // .catch(error => {
+        //     window.alert(error);
+        //     setIsLoading(false);
+        //     return;
+        // })
+        
         // Reset form data
         setFormData({
             Fname: "",
@@ -97,7 +120,7 @@ const RegisterPage = () => {
             email: "",
             githubID:""
         });
-        setIsLoading(false);
+        setIsLoading(false);    //server successfully sends response
         navigate("/");
     };
 

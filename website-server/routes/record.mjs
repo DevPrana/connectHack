@@ -14,32 +14,32 @@ router.get("/", async (req, res) => {
 
 const validateRequest = [
   body("Fname").trim()
-  .isLength({min : 1}).withMessage("First name empty")
+  .isEmpty().withMessage("First name empty")
   .isAlpha().withMessage("contains invalid characters")
   .isLength({max : 50}).withMessage("Name too long")
   .escape(),
 
-  body("Fname").trim()
-  .isLength({min : 1}).withMessage("Last name empty")
+  body("Lname").trim()
+  .isEmpty().withMessage("Last name empty")
   .isAlpha().withMessage("contains invalid characters")
   .isLength({max : 70}).withMessage("Name too long")
   .escape(),
 
   body("email").trim()
-  .isLength({min : 1}).withMessage("Email Empty")
-  .isLength({max : 70}).withMessage("Email too long")
+  .isEmpty().withMessage("Email Empty")
+  .isEmail().withMessage("Not a valid email ID")  //https://express-validator.github.io/docs/api/validation-chain#isemail
   .escape(),
 
   body("githubID").trim()
-  .isLength({min : 1}).withMessage("githubID Empty")
+  .isEmpty().withMessage("githubID Empty")
   .isLength({max : 39}).withMessage("ID too long")
   .escape(),
 ];
 
 router.post("/", validateRequest, async (req, res) => {
   
-  const errors = validationResult(req);   //Validate requests and check if errors is empty
-  if (!errors.isEmpty()) {
+  const errors = validationResult(req);   //Validate requests
+  if (!errors.isEmpty()) {                //check if errors is empty
     return res.status(400).json({ errors: errors.array() });
   }
 
