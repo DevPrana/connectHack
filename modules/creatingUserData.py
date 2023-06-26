@@ -59,7 +59,7 @@ def get_repos(username):
     if user_bio:
         ReposDB.add(user_bio)
 
-    page_no = 1
+    page_no = 1 # for a RESTful API, we can only fetch 30 repos at a time for this we loop the page number till all are covered
     repos_fetched = 30 #Setting to start the while loop
     while(repos_fetched == 30):
         response = requests.get(user_repos_url, headers = headers)
@@ -82,4 +82,4 @@ def get_repos(username):
 
         ReposDB.add(repos_descrip)
 
-    return ReposDB  
+    return str(ReposDB)  

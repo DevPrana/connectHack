@@ -100,18 +100,7 @@ const RegisterPage = () => {
             return;
         })
 
-        // await fetch("http://localhost:8080/user",{
-        //     method: "POST",
-        //     headers: {
-        //         "Content-Type": "application/json",
-        //     },
-        //     body: JSON.stringify(newPerson),
-        // })
-        // .catch(error => {
-        //     window.alert(error);
-        //     setIsLoading(false);
-        //     return;
-        // })
+        
         
         // Reset form data
         setFormData({
@@ -124,7 +113,7 @@ const RegisterPage = () => {
         navigate("/");
     };
 
-    useEffect(() => {
+    useEffect(() => {   // On changes in the errors array log the errors to the console
         console.log(errors);
     }, [errors]);
     

@@ -11,11 +11,8 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-app.get("/",(req,res) => {
-  res.location("/record").status(307).send("Pigeon got Lost").end();
-});
-
 app.use("/record", records);
+
 
 // start the Express server
 app.listen(PORT, () => {  
