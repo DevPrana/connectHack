@@ -28,8 +28,8 @@ const validateRequest = [
 
 // This section will help you get a list of all the records.
 router.get("/", async (req, res) => {
-	let collection = await db.collection("records");
-	let results = await collection.find({}).toArray();
+	const collection = await db.collection("records");
+	const results = await collection.find({}).toArray();
 	res.send(results).status(200);
 });
 
@@ -48,30 +48,34 @@ router.post("/", validateRequest, async (req, res) => {
 			githubID: req.body.githubID
 		};
 		
-		await fetch("http://localhost:8080/user",{
+		const response = await fetch("http://localhost:8080/user",{	// A call to the bottle.py server to fetch predictions for user
 			method: "POST",
 			headers: {
 				"Content-Type": "application/json",
 			},
 			body: JSON.stringify(newUser),
 		})
-		.then(response => {
-			if(response.status == 200){
-				response.json().then(data =>{
-					newUser.predictions = data.predictions;
-					console.log(newUser);
-          			let collection = db.collection("records");
-          			collection.insertOne(newUser);
-				});
-				
-			}
-		})
-		.catch(error => {
-			window.alert(error);
-			setIsLoading(false);
-			return;
-		})
-		res.send(result).status(200);
+		
+		if(response.status === 200){
+			const data = await response.json()
+			newUser.predictions = data.predictions;		// Creating a new Entry in newUser which adds the prediction array
+			console.log(newUser);
+			const collection = await db.collection("records");
+			await collection.insertOne(newUser);
+			res.status(201).send({
+				message: "Succesfully inserted new user:",
+				user: newUser
+			});
+		}
+		else{
+			const errorDetails = await response.json();
+
+			throw new Error({
+				message:"Couldn't get predictions from user path (Bottle)",
+				details: errorDetails
+			});
+		}
+			
 
   	} catch(error){
     	console.error(error);

@@ -83,3 +83,8 @@ def get_repos(username):
         ReposDB.add(repos_descrip)
 
     return str(ReposDB)  
+
+
+#To test
+# if __name__ == "__main__":
+#     print(get_repos("DevPrana"))

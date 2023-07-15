@@ -3,6 +3,9 @@ import sys
 import requests
 from bottle import get, post, request,response ,run, template, static_file
 
+from dotenv import load_dotenv
+load_dotenv()
+
 sys.path.insert(0,"./modules")
 from creatingUserData import get_repos
 from gettingModelPreds import get_preds

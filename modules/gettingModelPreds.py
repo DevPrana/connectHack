@@ -53,17 +53,20 @@ def query(payload):
 def get_preds(prediction_string: str):      # can be edited to ensure more cohesive english for particular models #TODO (GPT 3.5) using OpenAI API
     skills = []
     for i in range(0,len(candidate_labels),10):
-        output = query({                                 #query format for zeor shot classification (read parameters for more control)
+        print("request number "+str(int(i/10)))
+        output = query({                                 #query format for zero shot classification (read parameters for more control)
             "inputs": "Projects that i have built are "+prediction_string,
             "parameters": {"candidate_labels": candidate_labels[i:i+10],    #limitation of API only allows 10 labels per request
                            "wait_for_model": True,                          #https://huggingface.co/docs/api-inference/detailed_parameters#zeroshot-classification-task
                            "multi_label": True}         # allow for multiple labels without normalizing to prevent conflicts if two prominent skills come
             })
+        
         for j in range(len(output["scores"])):
-             if(output["scores"][j] > 0.2):            #score threshold to enable skills (wont matter if getting top 5 anyways)
+             if(output["scores"][j] > 0.4):            #score threshold to enable skills (wont matter if getting top 5 anyways)
                   skills.append([output["labels"][j],output["scores"][j]])
         # print(output["labels"])                   DEBUG stuff
         # print(output["scores"])
         # print("batch "+str(int((i/10)+1))+" done")
     skills.sort(key=lambda x: x[1], reverse=True)   #sorts based on scores obtained in descending order
-    return [skills[i][0] for i in range(5)]   #returns only the skills without scores (can be changed to incorporate top k skills)
+    return [skills[i][0] for i in range(min(5,len(skills)))]   #returns skills either top 5 or all that are present in list (whichever is smaller)
+

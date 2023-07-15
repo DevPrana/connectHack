@@ -36,6 +36,7 @@ const RegisterPage = () => {
         const { name, value } = event.target;
         setFormData((prevFormData) => ({ ...prevFormData, [name]: value }));
     };
+
     
     /**
      * Handles form submission by validating form data and sending a POST request to the server.

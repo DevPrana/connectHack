@@ -7,19 +7,26 @@ const HomePage = () => {
     const navigate=useNavigate();
 
     const RegisterButtonClicked=()=>{
-        console.log("register button debug");
+        // console.log("register button debug");
         navigate("/register");
+    };
+
+    const FindMateButtonClicked=()=>{
+        console.log("Find Button Clicked");
+        navigate("/find");
     };
 
     return (<>
         <div className={`${bodyStyles.MainBody}`}>
             <div className={`${bodyStyles.ButtonsDiv}`}>
                 
-                <button className={`${bodyStyles.FindMateButton}`}>Find Team</button>
+                <button 
+                    className={`${bodyStyles.FindMateButton}`}
+                    onClick={() => {FindMateButtonClicked();} }>Find Team</button>
                 
                 <button
                     className={`${bodyStyles.RegisterButton}`}
-                    onClick={()=>{RegisterButtonClicked();}}>Register
+                    onClick={() => {RegisterButtonClicked();}}>Register
                 </button>
             </div>
         </div>      
